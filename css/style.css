@@ -6,10 +6,17 @@ body {
     width: 100px;
 }
 
-.navbar-center {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align: center;
+.navbar .navbar-brand {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    font-weight: 800;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

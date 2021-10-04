@@ -11,6 +11,9 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css" type="Text/css">
     <title>Ferrateria Guardado</title>
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
 
@@ -18,79 +21,154 @@
 
     <!--MENU-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="Logo" src="img/Logo.png" alt="">
-
-            </a>
-
-            <div>
-                <a class="navbar-brand">Productos              
-            </a>
-            </div>
+        <img class="Logo" src="img/Logo.png" alt="">
 
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+
+        <a class="navbar-brand"> Productos
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
 
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-secondary" href="#inicio">Inicio </button>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-secondary" href="#inicio">Inicio </button>
 
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-secondary" href="#Descuentos">Descuentos </button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-secondary" href="#Descuentos">Descuentos </button>
 
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-secondary" href="#Descuentos">Compras</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-secondary" href="#Descuentos">Compras</button>
 
-                    </li>
+                </li>
 
-                </ul>
-                <div class="dropdown">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Usuario@gmail.com
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Cerrar Session</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Cerrar Session</a>
 
-                    </div>
                 </div>
-
-
             </div>
+
+
+        </div>
         </div>
     </nav>
     <!--FIN MENU-->
 
     <!--Productos-->
     <section id="productos">
-        <!--  <div class="container-fluid"> -->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="../img/martillos.jpg" alt="Card image cap" style="height: 13.5rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Martillo </h5>
+                            <p class="card-text">Es una herramienta compuesta de una cabeza de acero y un mango de madera, también se encuentran de plástico o metal.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Precio $25 </li>
+
+                        </ul>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bag-plus-fill"></i> Comprar</button>
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bookmark-check-fill"></i> Apartar</button>
 
 
 
-
-        <div class="col-lg-4 col-sm-6">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="../img/martillos.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Martillos </h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Precio $25 </li>
 
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Comprar</a>
-                    <a href="#" class="card-link">Apartar </a>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="../img/Espatulas_Albanil.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Espatulas </h5>
+                            <p class="card-text"> Forjada en una sola pieza de acero con mango fabricado en madera hickory, reforzado con casquillo metálico y resina epóxica.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Precio $35 </li>
+
+                        </ul>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bag-plus-fill"></i> Comprar</button>
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bookmark-check-fill"></i> Apartar</button>
+
+
+
+                        </div>
+                    </div>
                 </div>
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="../img/pinzas.jpg" alt="Card image cap" style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Pinzas </h5>
+                            <p class="card-text"> Pueden sujetar cualquier tipo de piezas metálicas de diferentes materiales.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Precio $27 </li>
+
+                        </ul>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bag-plus-fill"></i> Comprar</button>
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bookmark-check-fill"></i> Apartar</button>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="../img/Corte.jpg" alt="Card image cap" style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Serrucho </h5>
+                            <p class="card-text">Es una herramienta con diseño ergonómico y está ajustada para facilitar su manipulación</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Precio $50 </li>
+
+                        </ul>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bag-plus-fill"></i> Comprar</button>
+                            <button type="button" class="btn btn-primary">
+                            <i class="bi bi-bookmark-check-fill"></i> Apartar</button>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
+
     </section>
     <!--Fiin Productos-->
 
